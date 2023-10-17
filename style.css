@@ -8,7 +8,7 @@ body{
     background-color: rgb(187,193,202);
 }
 .menu img{
- width:200px;
+ width:100px;
  height: 60px;
  margin-left: 10px;
  
@@ -118,6 +118,7 @@ footer h2{
     position: relative;
     top:-50px;
 }
+
 /*  om oss styla */
 .container-om-oss{
     width: 100dvw;
@@ -160,8 +161,136 @@ height: 100px;
 }
 
 .section-two-om-oss{
-    background-color: white;
     width: 100dvw;
     height: 700px;
     opacity: 0.5;
+}
+
+/* kontakt sida */
+.container-kontakt-sida{
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-kontakt-sida{
+    height: 100dvh;
+width: 80%;    
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-kontakt-sida h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.section-kontakt-sida ul{
+   height: 70%;
+   width: 600px;
+list-style-type: none;
+display: flex;
+align-items: center; 
+   flex-direction: column;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap:15px;
+
+}
+
+.section-kontakt-sida li{
+list-style-type: none;
+font-size: 1rem;
+text-transform: capitalize;
+font-style: italic;
+font-weight: bolder;
+line-height: 2;
+padding: 15px;
+width: 300px;
+
+}
+
+/*   produkter sida styla */
+
+.container-produkter{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0px
+}
+.section-produkter{
+width: 90%;
+height: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap:20px;
+
+}
+.foto{
+    width: 350px;
+    height: 350px;
+    display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+gap:5px;
+perspective:1000px;
+transform-style: preserve-3d;
+}
+.foto img{
+    width:300px;
+    height:300px;
+}
+.foto img:hover{
+    transform: scale(1.2);
+    transform: rotateY(360deg);
+    transition: 2s 0s linear;
+
+}
+.container-produkter h1{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+.foto p{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ref sida styla */
+.section-one-referense{
+    background-image: url("./img/referensbackground.jpeg");
+    height: 100dvh;
+    width: 100dvw;
+    background-repeat: no-repeat;
+    background-size: ;
+    background-position:center;
 }

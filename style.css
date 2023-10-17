@@ -140,8 +140,12 @@ footer h2{
 /*  om oss styla */
 .container-om-oss{
     width: 100dvw;
-    height: 1000px;
+    height: 30%;
     background-image: url("./img/om oss background.png");
+    background-size: 100dvw;
+    background-repeat: no-repeat;
+    background-position: 70%;
+
 
 }
 .section-one-om-oss{
@@ -152,19 +156,17 @@ footer h2{
     align-items: center;
 }
 .header-om-oss{
-    width:30%;
-    height: 200px;
+    width:70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap:20px;
     /* left:700px; */
 }
 .header-om-oss h1{
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: capitalize;
-    height: 100px;
 
     
 }
@@ -174,6 +176,7 @@ footer h2{
     text-transform: capitalize;
     /* width: 50%; */
 height: 100px;
+width: 50%;
 
 
 }
@@ -181,8 +184,78 @@ height: 100px;
 .section-two-om-oss{
     width: 100dvw;
     height: 700px;
-    opacity: 0.5;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap:10px;
 }
+.om-oss{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    padding: 10px;
+
+}
+.om-oss img{
+    width:80%;
+    height: 70%;
+}
+.om-oss p{
+    width:50%;
+}
+.vår-historia{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    padding: 10px;
+}
+.vår-historia img{
+    width:80%;
+    height: 60%;
+}
+.vår-historia p{
+    width:50%;
+}
+.container-two-om-oss{
+    width: 100dvw;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-three-om-oss{
+    width: 100dvw;
+    height: 580px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.anstalld{
+    width: 100%;
+    height: 100%;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+    padding: 20px;
+}
+.anstalld img{
+    width: 90%;
+    height: 70%;
+   
+}
+
+
 
 /* kontakt sida */
 .container-kontakt-sida{

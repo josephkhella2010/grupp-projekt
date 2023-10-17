@@ -305,7 +305,7 @@ transform-style: preserve-3d;
 
 /*  ref sida styla */
 .section-one-referense{
-    background-image: url("./img/referensbackground.jpeg");
+    background-image: url("./img/referensbackground.jpg");
     height: 100dvh;
     width: 100dvw;
     background-repeat: no-repeat;

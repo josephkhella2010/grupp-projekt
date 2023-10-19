@@ -399,8 +399,8 @@ transform-style: preserve-3d;
     background-repeat: no-repeat;
     background-position:center;
     height: 120dvh;
-    background-image: linear-gradient(to right, rgb(78, 5, 5),rgb(132, 10, 10),rgb(189, 9, 9));
-
+    background-image:url("./referense foto/ref-background.png") ;
+     background-size: cover;
 }
 .container-refenser{
     height: 120dvh;
@@ -453,7 +453,7 @@ z-index: 1;
 }
 
 .container-refenser h1:hover{
-    color: rgb(4, 4, 215);
+    color:rgb(225, 12, 12);
 }
 .animate{
     
@@ -461,7 +461,7 @@ z-index: 1;
     height: 100px;
     border-radius: 50%;
     background-color:white;
-opacity: 0.3;
+opacity: 0.4;
 animation: circle 6s 0s linear  infinite ;
    
 }
@@ -720,9 +720,6 @@ padding: 20px;
 
 .wrapper-ref{    
     
-    background-repeat: no-repeat;
-    background-position:center;
-    background-image: linear-gradient(to right, rgb(78, 5, 5),rgb(132, 10, 10),rgb(189, 9, 9));
     height: 150dvh;
     width: 150%;
 
@@ -730,17 +727,11 @@ padding: 20px;
 .container-refenser{
     height: 100dvh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:20px;
-}
+  }
 .section-one-referense{
 height: 90%;
 width: 100%;
-display: flex;
-justify-content:center;
-align-items: center;
+
 gap: 5px;
 
 }

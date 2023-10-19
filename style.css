@@ -14,6 +14,9 @@ body{
  width:100px;
  height: 60px;
  margin-left: 10px;
+ z-index: 1;
+
+
  
 }
 .menu{
@@ -23,10 +26,14 @@ body{
     align-items: center;
     height: 60px;
     border-bottom: 1px solid black;
+    z-index: 1;
+
 }
 .menu ul{
     display: flex;
     list-style-type: none;
+    z-index: 1;
+
 }
 .menu li{
     width:100px;
@@ -157,9 +164,9 @@ footer h2{
 }
 .section-one-om-oss{
     width:100%;
-    height: 300px;
+    height: 200px;
     display: flex;
-    justify-content: center;
+    justify-content:center ;
     align-items: center;
 }
 .header-om-oss{
@@ -169,7 +176,6 @@ footer h2{
     justify-content: center;
     align-items: center;
     gap:20px;
-    /* left:700px; */
 }
 .header-om-oss h1{
     font-size: 2rem;
@@ -387,14 +393,116 @@ transform-style: preserve-3d;
 
 
 /*  ref sida styla */
-.section-one-referense{    
-    background-image: url("./img/referensbackground.jpeg");
 
-    height: 100dvh;
-    width: 100dvw;
+.wrapper-ref{    
+    
     background-repeat: no-repeat;
     background-position:center;
+    height: 120dvh;
+    background-image: linear-gradient(to right, rgb(78, 5, 5),rgb(132, 10, 10),rgb(189, 9, 9));
+
 }
+.container-refenser{
+    height: 120dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.section-one-referense{
+height: 90%;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+gap: 15px;
+
+}
+
+.foretag-logo{
+    height: 20%;
+width: 25%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:white;
+z-index: 1;
+
+
+}
+.foretag-logo:hover{
+    transform: rotateX(360deg);
+    transition: transform 1.5s 0s ease-in;
+}
+.foretag-logo img{
+    height: 80%;
+    width: 90%;
+}
+.container-refenser h1{
+    height: 400px;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    color:white;
+    z-index: 1;
+
+}
+
+.container-refenser h1:hover{
+    color: rgb(4, 4, 215);
+}
+.animate{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:white;
+opacity: 0.3;
+animation: circle 6s 0s linear  infinite ;
+   
+}
+.animate.two{
+    animation: circle 6s 1s linear  infinite ;
+
+}
+.animate.three{
+    animation: circle 6s 2s linear  infinite ;
+
+}
+.animate.four{
+    animation: circle 6s 3s linear  infinite ;
+
+}
+.animate.five{
+    animation: circle 6s 4s linear  infinite ;
+
+}
+.animi{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top:0px;
+    width: 100%;
+    height: 100dvh;
+
+}
+@keyframes circle{
+    0%{
+       transform: translateY(0%) scale(0);
+
+    }
+    100%{
+        transform: translateY(120dvh) scale(1);
+
+    }
+}
+
+
+
 
 
 /*    media querie start sida*/
@@ -405,6 +513,7 @@ transform-style: preserve-3d;
         width: 110%;
         height: 100dvh;
          background-color: rgb(189, 194, 202);
+
     
     
     }
@@ -607,6 +716,64 @@ padding: 20px;
     transition: 1s 0s ease-in-out;
     color: red;
 }
+    /* media querie referense */
+
+.wrapper-ref{    
+    
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: linear-gradient(to right, rgb(78, 5, 5),rgb(132, 10, 10),rgb(189, 9, 9));
+    height: 150dvh;
+    width: 150%;
+
+}
+.container-refenser{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.section-one-referense{
+height: 90%;
+width: 100%;
+display: flex;
+justify-content:center;
+align-items: center;
+gap: 5px;
+
+}
+
+.foretag-logo{
+    height: 12%;
+width: 50%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+flex-direction: column;
+
+
+
+}
+
+.foretag-logo img{
+    height: 80%;
+    width: 80%;
+}
+
+@keyframes circle{
+    0%{
+       transform: translateY(0%) scale(0);
+
+    }
+    100%{
+        transform: translateY(150dvh) scale(1);
+
+    }
+}
+
+
 
 }
 

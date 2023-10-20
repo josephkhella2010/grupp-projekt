@@ -459,13 +459,13 @@ z-index: 1;
     text-transform: capitalize;
     display: flex;
     align-items: center;
-    color:white;
+    color:rgb(227, 10, 10);
     z-index: 1;
 
 }
 
 .container-refenser h1:hover{
-    color:rgb(225, 12, 12);
+    color:rgb(227, 149, 4);
 }
 .animate{
     
@@ -681,7 +681,12 @@ gap:20px;
 
 
 /* kontakt sida */
+.wrapper-kontakt{
+    background-image: url("./img/kontakt\ background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
 
 .container-kontakt-sida{
     height: 140dvh;

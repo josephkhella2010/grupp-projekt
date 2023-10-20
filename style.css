@@ -91,6 +91,7 @@ gap:20px;
 .head p{
     font-size: 1.1rem;
     line-height: 1.5;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 
 }
 /* button parent */
@@ -284,9 +285,8 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 100%;
-    gap:10px;
     background-image: url("./img/kontakt\ background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -296,26 +296,32 @@ justify-content: center;
 .section-kontakt-sida{
     height: 100dvh;
 width: 80%;    
-    gap: 20px;
+    gap: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .container-kontakt-sida h1{
+    
     font-size: 3rem;
     text-transform: uppercase;
-    width: 100%;
+    width: 300px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    opacity: 0.7;
+    color:gray;
     
-    color:  rgb(237, 191, 135)
+    box-shadow: 1px 1px 0px 2px inset;
     
 }
 .container-kontakt-sida h1:hover{
-    color: rgb(10, 10, 171);
+    color: rgb(224, 174, 114);
+    background-color:rgb(107, 33, 33);
 }
 
 
@@ -341,15 +347,12 @@ align-items: center;
 list-style-type: none;
 font-size: 1rem;
 text-transform: capitalize;
-font-style: italic;
 font-weight: bolder;
-line-height: 2;
 padding: 15px;
-width: 320px;
+width: 300px;
 text-decoration: none;
 color:black;
-
-
+font-family: cursive;
 }
 .section-kontakt-sida li a:hover{
     transform: translateY(-10px) scaleY(1.2);
@@ -387,8 +390,9 @@ justify-content: center;
 flex-direction: column;
 align-items: center;
 gap:5px;
-perspective:1000px;
+perspective:5000px;
 transform-style: preserve-3d;
+
 }
 .foto img{
     width:400px;
@@ -410,8 +414,10 @@ transform-style: preserve-3d;
 }
 .foto p{
     text-transform: capitalize;
-    font-size: 1.2rem;
-
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color:rgb(237, 6, 6);
+     font-weight: bold;
 }
 
 
@@ -454,6 +460,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color:white;
+box-shadow: 1px 1px 2px 2px inset;
+color:black;
 z-index: 1;
 
 
@@ -461,6 +469,9 @@ z-index: 1;
 .foretag-logo:hover{
     transform: rotateX(360deg);
     transition: transform 1.5s 0s ease-in;
+    box-shadow: 1px 1px 2px 2px inset;
+    color:rgb(0, 0, 243);
+
 }
 .foretag-logo img{
     height: 80%;
@@ -487,25 +498,38 @@ z-index: 1;
     border-radius: 50%;
     background-color:white;
 opacity: 0.4;
-animation: circle 6s 0s linear  infinite ;
+animation: circle 12s 0s linear  infinite ;
    
 }
 .animate.two{
-    animation: circle 6s 1s linear  infinite ;
+    animation: circle   12s 0.5s linear  infinite ;
 
 }
 .animate.three{
-    animation: circle 6s 2s linear  infinite ;
+    animation: circle  12s 1s linear  infinite ;
 
 }
 .animate.four{
-    animation: circle 6s 3s linear  infinite ;
+    animation: circle  12s 1.7s linear  infinite ;
 
 }
 .animate.five{
-    animation: circle 6s 4s linear  infinite ;
+    animation: circle  12s  2.4s linear  infinite ;
 
 }
+.animate.six{
+    animation: circle  12s 3.1s linear  infinite ;
+
+}
+.animate.seven{
+    animation: circle  12s 3.8s linear  infinite ;
+
+}
+.animate.eigth{
+    animation: circle  12s 4.5s linear  infinite ;
+
+}
+
 .animi{
     position: absolute;
     display: flex;

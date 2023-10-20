@@ -310,24 +310,34 @@ width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    color:  rgb(237, 191, 135)
+    
 }
+.container-kontakt-sida h1:hover{
+    color: rgb(10, 10, 171);
+}
+
 
 .section-kontakt-sida ul{
    height: 70%;
    width: 600px;
 list-style-type: none;
 display: flex;
-align-items: center; 
    flex-direction: column;
    background-color: white;
-   justify-content: center;
-  
+justify-content: center;  
+align-items: center;
    gap:15px;
    opacity: 0.7;
 
 }
-
-.section-kontakt-sida li{
+.section-kontakt-sida li {
+    display: flex;
+align-items: flex-start;
+align-items: center;
+}
+.section-kontakt-sida li a{
 list-style-type: none;
 font-size: 1rem;
 text-transform: capitalize;
@@ -336,9 +346,12 @@ font-weight: bolder;
 line-height: 2;
 padding: 15px;
 width: 320px;
+text-decoration: none;
+color:black;
+
 
 }
-.section-kontakt-sida li:hover{
+.section-kontakt-sida li a:hover{
     transform: translateY(-10px) scaleY(1.2);
     transition: 1s 0s ease-in-out;
     color: red;

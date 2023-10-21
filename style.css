@@ -257,7 +257,7 @@ justify-content: center;
 .container-two-om-oss h3{
 text-transform: capitalize;
 font-family: Arial, Helvetica, sans-serif;
-color:rgb(110, 4, 148)
+color:rgb(102, 3, 138)
 }
 .anstalld{
     width: 100%;
@@ -400,11 +400,11 @@ transform-style: preserve-3d;
 
 }
 .foto img{
-    width:400px;
-    height:400px;
+    width:430px;
+    height:360px;
 }
 .foto img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transform: rotateY(360deg);
     transition: 2s 0s linear;
 
@@ -424,7 +424,49 @@ transform-style: preserve-3d;
      color:rgb(237, 6, 6);
      font-weight: bold;
 }
+.price{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    background-color: rgb(161, 156, 163);
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.input input{
+    width: 120px;
+    height: 40%;
+    background-color: #870421;
+    color:white;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     letter-spacing: 1px;
+}
+.input:hover{
+    background-color: rgb(227, 173, 108);
+    transition: 1s;
+}
+.input p{
+    color:black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: lighter;
 
+} 
+input:hover{
+    background-image:linear-gradient(to bottom,rgb(150, 42, 2) 20%,rgb(164, 52, 11) 40% ,rgb(222, 67, 11)) ;
+    transition: 1s;
+    color:blue
+
+}
 
 
 

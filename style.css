@@ -82,7 +82,7 @@ gap:20px;
 }
 
 .container{
-    background-image: url("./img/startbackground.png");
+    background-image: url("./img/startbackground.jpg");
     width:100dvw;
     height: 100dvh;
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@ footer h2{
 .container-om-oss{
     width: 100dvw;
     height: 30%;
-    background-image: url("./img/om oss background.png");
+    background-image: url("./img/omoss\ background.png");
     background-size: 100dvw;
     background-repeat: no-repeat;
     background-position: 70%;
@@ -554,7 +554,7 @@ input:hover{
     background-repeat: no-repeat;
     background-position:center;
     height: 130dvh;
-    background-image:url("./referense foto/ref-background.png") ;
+    /* background-image:url("./referense foto/ref-background.png") ; */
      background-size: cover;
 }
 .container-refenser{

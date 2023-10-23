@@ -199,9 +199,10 @@ text-align: center;
 
 .section-two-om-oss{
     width: 100dvw;
-    height: 700px;
+    /* height: 700px; */
     background-color: aliceblue;
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
     gap:10px;
 }
@@ -238,7 +239,7 @@ text-align: center;
 }
 .container-two-om-oss{
     width: 100dvw;
-    height: 650px;
+    /* height: 650px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -248,7 +249,7 @@ text-align: center;
 }
 .section-three-om-oss{
     width: 100dvw;
-    height: 580px;
+    /* height: 580px; */
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -262,7 +263,7 @@ font-family: Arial, Helvetica, sans-serif;
 color:rgb(102, 3, 138)
 }
 .anstalld{
-    width: 100%;
+    width: 250px; /* Ändra värdet */
     height: 100%;
     display: flex;
 flex-direction: column;

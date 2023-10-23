@@ -722,8 +722,7 @@ animation: circle 12s 0s linear  infinite ;
         font-size: 10px;
     }
    
-    .icon{
-  }
+   
    
     .btn{
     display: inline-block;
@@ -761,8 +760,7 @@ animation: circle 12s 0s linear  infinite ;
         justify-content:space-between ;
         
     }
-    .icon{
-    }
+    
      /*    media querie  om oss*/
 
 /*  om oss styla */
@@ -887,7 +885,7 @@ gap:20px;
 
 /* kontakt sida */
 .wrapper-kontakt{
-    background-image: url("./img/kontakt\ background.png");
+    /* background-image: url("./img/kontakt\ background.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10%;

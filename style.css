@@ -173,13 +173,13 @@ footer h2{
 
 
 .container-om-oss{
-    width: 100%;
-    /* width: 100dvw;
+    /* width: 100%; */
+    width: 100dvw;
     height: 30%;
     background-image: url("./img/omoss\ background.png");
     background-size: 100dvw;
     background-repeat: no-repeat;
-    background-position: 70%; */
+    background-position: 70%;
 
 
 }
